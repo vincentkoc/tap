@@ -1,10 +1,10 @@
 class Slacrawl < Formula
   desc "Mirror Slack workspace data into local SQLite for fast local search"
   homepage "https://github.com/vincentkoc/slacrawl"
-  url "https://github.com/vincentkoc/slacrawl/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "0bf99df6b208202cc98629c655ebd03dfaffc84e3434488094798055e5361237"
+  url "https://github.com/vincentkoc/slacrawl/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "7423a4668a2cf6c37eaf234bb193abeb51fac85aa68329ab1cb01af696c558ab"
   license "MIT"
-  version "0.1.0"
+  version "0.2.0"
 
   depends_on "go" => :build
 
