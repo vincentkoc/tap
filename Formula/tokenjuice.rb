@@ -5,6 +5,7 @@ class Tokenjuice < Formula
   sha256 "4e99c49bc1ea7f49445f2344fc958cf24a6b3fb2fbdda0d67b45d99069d39e2e"
   license "MIT"
   version "0.1.0"
+  revision 1
 
   depends_on "node"
 
@@ -13,7 +14,7 @@ class Tokenjuice < Formula
 
     (bin/"tokenjuice").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/dist/cli/main.js" ""
+      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/dist/cli/main.js" "\$@"
     EOS
     (bin/"tokenjuice").chmod 0755
   end
