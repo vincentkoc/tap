@@ -1,10 +1,10 @@
 class Autosecure < Formula
   desc "Block known bad IPs from threat feeds using iptables"
   homepage "https://github.com/vincentkoc/autosecure"
-  url "https://github.com/vincentkoc/autosecure/releases/download/v2.0.1/autosecure-v2.0.1.tar.gz"
-  sha256 "17e0d68394018439c166422b8a5800d791df2671441992dc2ab470bc1594229e"
+  url "https://github.com/vincentkoc/autosecure/releases/download/v2.3.4/autosecure-v2.3.4.tar.gz"
+  sha256 "e0b14fc072661acb5a9a6fc29969d0422f23671dbe5941bb7a3ed981c0350fae"
   license "GPL-3.0"
-  version "2.0.1"
+  version "2.3.4"
 
   depends_on "bash"
 
