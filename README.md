@@ -16,4 +16,4 @@ brew install vincentkoc/tap/slacrawl
 brew install vincentkoc/tap/autosecure
 ```
 
-This repo is the canonical tap location. Older `vincentkoc/homebrew-tap` references should be updated to `vincentkoc/tap`.
+This repo is the canonical tap location for Vincent Koc formulas. Use `vincentkoc/tap` in docs, commands, and install instructions.
