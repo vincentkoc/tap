@@ -1,11 +1,10 @@
 class Tokenjuice < Formula
   desc "Lean output compaction for terminal-heavy agent workflows"
   homepage "https://github.com/vincentkoc/tokenjuice"
-  url "https://github.com/vincentkoc/tokenjuice/releases/download/v0.1.0/tokenjuice-v0.1.0.tar.gz"
-  sha256 "4e99c49bc1ea7f49445f2344fc958cf24a6b3fb2fbdda0d67b45d99069d39e2e"
+  url "https://github.com/vincentkoc/tokenjuice/releases/download/v0.2.0/tokenjuice-v0.2.0.tar.gz"
+  sha256 "953f0e32dd58d4d7318dad487c97bb9e9df2c1d3cfd3a2bd5a5166fcd638a644"
   license "MIT"
-  version "0.1.0"
-  revision 1
+  version "0.2.0"
 
   depends_on "node"
 
@@ -14,12 +13,12 @@ class Tokenjuice < Formula
 
     (bin/"tokenjuice").write <<~EOS
       #!/bin/bash
-      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/dist/cli/main.js" "\$@"
+      exec "#{Formula["node"].opt_bin}/node" "#{libexec}/dist/cli/main.js" "$@"
     EOS
     (bin/"tokenjuice").chmod 0755
   end
 
   test do
-    assert_equal "0.1.0", shell_output("#{bin}/tokenjuice --version").strip
+    assert_equal "0.2.0", shell_output("#{bin}/tokenjuice --version").strip
   end
 end
