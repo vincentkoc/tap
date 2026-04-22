@@ -1,10 +1,10 @@
 class Slacrawl < Formula
   desc "Go-based CLI for mirroring Slack workspace data into local SQLite"
   homepage "https://github.com/vincentkoc/slacrawl"
-  url "https://github.com/vincentkoc/slacrawl/archive/refs/tags/v0.3.2.tar.gz"
-  sha256 "c30b95a1f388c62d3c5957b69fdd4478cf39148cc9b594bc7d2de1c26f7d5fee"
+  url "https://github.com/vincentkoc/slacrawl/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "f8e506167f6e537556758e808e60598eb74330783fa4cef3edfe1dbd8293cacb"
   license "MIT"
-  version "0.3.2"
+  version "0.4.0"
 
   depends_on "go" => :build
 
