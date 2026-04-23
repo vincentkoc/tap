@@ -1,10 +1,10 @@
 class Tokenjuice < Formula
   desc "Lean output compaction for terminal-heavy agent workflows"
   homepage "https://github.com/vincentkoc/tokenjuice"
-  url "https://github.com/vincentkoc/tokenjuice/releases/download/v0.6.1/tokenjuice-v0.6.1.tar.gz"
-  sha256 "1cf5f0fc25969eba9b8ea380bdee0f28230a10e3e66f88566558c36917fc892e"
+  url "https://github.com/vincentkoc/tokenjuice/releases/download/v0.6.2/tokenjuice-v0.6.2.tar.gz"
+  sha256 "8ae591ace3acb6b66a080fc3ab4ddb5c6a8e0f0a1f024a8b082670692e2fea95"
   license "MIT"
-  version "0.6.1"
+  version "0.6.2"
 
   depends_on "node"
 
@@ -19,6 +19,6 @@ class Tokenjuice < Formula
   end
 
   test do
-    assert_equal "0.6.1", shell_output("#{bin}/tokenjuice --version").strip
+    assert_equal "0.6.2", shell_output("#{bin}/tokenjuice --version").strip
   end
 end
