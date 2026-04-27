@@ -2,7 +2,7 @@ class Tokenjuice < Formula
   desc "Lean output compaction for terminal-heavy agent workflows"
   homepage "https://github.com/vincentkoc/tokenjuice"
   url "https://github.com/vincentkoc/tokenjuice/releases/download/v0.6.4/tokenjuice-v0.6.4.tar.gz"
-  sha256 "bf7aa8b53b4f99c237d0e3bb8d5decc87a42dfa644959440f44dc217e6003f2b"
+  sha256 "a304306ac10a1e17d787efe32ef5b0037514cf8ad2ec246921410a8b966e1b11"
   license "MIT"
   version "0.6.4"
 
