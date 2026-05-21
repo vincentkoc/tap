@@ -4,7 +4,6 @@ class Tokenjuice < Formula
   url "https://github.com/vincentkoc/tokenjuice/releases/download/v0.7.1/tokenjuice-v0.7.1.tar.gz"
   sha256 "bef5c82b6305c53c770a744ec854c95c726f2b2880afa4bf724281ca719377ac"
   license "MIT"
-  version "0.7.1"
 
   depends_on "node"
 
