@@ -1,20 +1,17 @@
-# vincentkoc/tap
+# Deprecated Repository
 
-Homebrew tap for Vincent Koc projects.
+The canonical Homebrew repository is
+[`vincentkoc/homebrew-tap`](https://github.com/vincentkoc/homebrew-tap).
 
-## use
+Homebrew maps the tap name `vincentkoc/tap` to the GitHub repository
+`vincentkoc/homebrew-tap`. This separate `vincentkoc/tap` repository is not
+used by the normal tap command and is retained only as read-only history.
+
+Use:
 
 ```bash
 brew tap vincentkoc/tap
 brew install tokenjuice
 ```
 
-You can also install a specific formula directly:
-
-```bash
-brew install vincentkoc/tap/slacrawl
-brew install vincentkoc/tap/autosecure
-brew install vincentkoc/tap/crawlbar
-```
-
-This repo is the canonical tap location for Vincent Koc formulas. Use `vincentkoc/tap` in docs, commands, and install instructions.
+Do not update formulas in this repository.
